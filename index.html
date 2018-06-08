@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+  <title>FinalCineExpandido</title>
+  <script src="libraries/p5.js" type="text/javascript"></script>
+  <script src="libraries/p5.dom.js" type="text/javascript"></script>
+  <script src="libraries/p5.sound.js" type="text/javascript"></script>
+  <script src="sketch.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="window" style="position:absolute; z-index:0; left:350px; top:160px; width:400px;background-color:#dde3eb; border:1px solid #464f5a;">
+
+    <div style="padding-bottom:50px; width:400px; background-color:#718191; border-bottom:1px solid #464f5a;" onMouseDown="beginDrag(this.parentNode, event);">
+
+      <div style="position:absolute; top:2px; left:5px; font-size:32px; font-weight:bold; color:#FFFFFF;">Drag me!</div>
+
+      <div id="ventana" style="position:absolute; top:3px; left:377px; float:right;" onClick="this.parentNode.parentNode.style.display = 'none';">
+
+        <img src="assets/x.png" border="0" />
+
+      </div>
+
+    </div>
+    <br/>
+    <div style="margin-left:20px;">your content here...</div>
+    <br/>
+
+  </div>
+</body>
+
+</html>
