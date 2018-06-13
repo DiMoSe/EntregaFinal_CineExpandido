@@ -12,21 +12,29 @@
 </head>
 
 <body>
-  <div id="window" style="position:absolute; z-index:0; left:350px; top:160px; width:400px;background-color:#dde3eb; border:1px solid #464f5a;">
+  <div id="window" style="position:absolute; z-index:0; left:350px; top:0px; width:600px;background-color:#dde3eb; border:1px solid #464f5a; ">
 
-    <div style="padding-bottom:50px; width:400px; background-color:#718191; border-bottom:1px solid #464f5a;" onMouseDown="beginDrag(this.parentNode, event);">
+    <div style="padding-bottom:50px; width:600px; background-color:#4cc639; border-bottom:1px solid #00b73d;" onMouseDown="beginDrag(this.parentNode, event);">
 
-      <div style="position:absolute; top:2px; left:5px; font-size:32px; font-weight:bold; color:#FFFFFF;">Drag me!</div>
+      <div id="titulo" style="position:absolute; top:2px; left:5px; font-size:40px; font-weight:bold; color:#FFFFFF;">
+        Drag me!
+      </div>
 
-      <div id="ventana" style="position:absolute; top:3px; left:377px; float:right;" onClick="this.parentNode.parentNode.style.display = 'none';">
-
+      <div id="ventana" style="position:absolute; top:3px; left:570px; float:right;" onClick="this.parentNode.parentNode.style.display = 'none';">
         <img src="assets/x.png" border="0" />
-
       </div>
 
     </div>
+
     <br/>
-    <div style="margin-left:20px;">your content here...</div>
+    <a id="link" target="_blank">
+
+      <img id="imagen" border="0" style="display: block; margin-left: auto; margin-right: auto; width: 75%;" />
+    </a>
+    <br/>
+    <div id="descripcion" style="margin-left:20px; font-size:35px; margin-right:20px;">
+      your content here...
+    </div>
     <br/>
 
   </div>
