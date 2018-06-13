@@ -162,7 +162,7 @@ function mouseClicked() {
 
   if (mouseX > (circle5X - diameter / 2) && mouseX < (circle5X + diameter / 2) && mouseY > (circle5Y - diameter / 2) && mouseY < (circle5Y + diameter / 2)) {
     title.html('Poster de los Granujas');
-    description.html('La banda favorita de la pareja.');
+    description.html('La banda favorita de la pareja. Su canción favorita de ellos es Mi Novia es un Robot');
     document.getElementById("imagen").src = "assets/granujas.jpg";
     document.getElementById("window").style.display = 'block';
     document.getElementById("link").href = "https://www.youtube.com/user/losgranujassurf/videos";
