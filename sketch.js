@@ -93,7 +93,7 @@ function draw() {
   circle8Y = windowHeight * 0.5;
   
   circle9X = windowWidth * 0.70;
-  circle9Y = windowHeight * 0.85;
+  circle9Y = windowHeight * 0.87;
   
   circle10X = windowWidth * 0.73;
   circle10Y = windowHeight * 0.47;
